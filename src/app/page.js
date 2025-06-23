@@ -10,8 +10,8 @@ const HomePage = () => {
     <div className='p-4'>
       <Navbar/>
       <HeroSection/>
-      <HowItWorksSection/>
       <NumberSection/>
+      <HowItWorksSection/>
       <Footer/>
     </div>
   )

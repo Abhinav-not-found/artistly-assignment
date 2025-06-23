@@ -4,11 +4,11 @@ import { NotebookPen, Sparkle } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <div className='h-[90vh] flex flex-col justify-between relative'>
+    <section className='h-[90vh] flex flex-col justify-between relative'>
       <div>
-        <p className='w-1/2 m-auto text-6xl font-semibold text-center mt-10'>
+        <h1 className='w-1/2 m-auto text-6xl font-semibold text-center mt-10'>
           Find the Perfect Artist for Every Occasion
-        </p>
+        </h1>
         <p className='w-3/6 m-auto text-center mt-10 text-xl'>
           Whether you're organizing a corporate event or a private party, find
           verified artists and manage your bookings — all in one place.
@@ -71,7 +71,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

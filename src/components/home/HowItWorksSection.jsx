@@ -3,7 +3,7 @@ import React from 'react'
 
 const HowItWorksSection = () => {
   return (
-    <div className='w-full h-fit bg-primary my-20 rounded-3xl p-10 flex flex-col gap-24'>
+    <section className='w-full h-fit bg-primary my-20 rounded-3xl p-10 flex flex-col gap-24'>
       <p className='text-6xl font-semibold text-center mt-10'>How It Works</p>
       <div className='flex justify-center gap-10 mb-10'>
         <div className='flex flex-col items-center justify-center'>
@@ -22,7 +22,7 @@ const HowItWorksSection = () => {
           <p className='text-center text-lg w-2/3 mt-4'>Finalize your booking and enjoy an amazing performance</p>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

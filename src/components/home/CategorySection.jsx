@@ -3,7 +3,7 @@ import CategoryCard from "./CategoryCard";
 
 const CategorySection = () => {
   return (
-    <div className=''>
+    <section className=''>
       <p className='text-center text-2xl'>Select from variety of </p>
       <p className='text-center text-6xl font-semibold'>Categories</p>
       <div className='mt-18 grid grid-cols-4 grid-rows-1 ml-28'>
@@ -32,7 +32,7 @@ const CategorySection = () => {
           text={"Djs"}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

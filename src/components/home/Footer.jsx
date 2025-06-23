@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className='bg-secondary w-full h-fit rounded-3xl p-10 flex flex-col justify-between'>
+    <footer className='bg-secondary w-full h-fit rounded-3xl p-10 flex flex-col justify-between'>
       <div className="flex justify-between items-start">
         <div>
           <Link href={"/"} className='flex gap-1 items-center'>
@@ -26,7 +26,7 @@ const Footer = () => {
         <p>© 2025 Copyright.Artistly</p>
         <p>Made with by ❤️ Abhinav Kumar</p>
       </div>
-    </div>
+    </footer>
   );
 };
 

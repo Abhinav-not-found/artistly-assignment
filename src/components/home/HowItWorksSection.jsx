@@ -9,17 +9,17 @@ const HowItWorksSection = () => {
         <div className='flex flex-col items-center justify-center'>
           <Search className='size-20' />
           <p className='text-2xl font-semibold'> Browse & Filter</p>
-          <p className='text-center w-2/3 mt-4'>Search our curated artist collection with advanced filters</p>
+          <p className='text-center text-lg w-2/3 mt-4'>Search our curated artist collection with advanced filters</p>
         </div>
         <div className='flex flex-col items-center justify-center'>
           <TicketCheck className='size-20' />
           <p className='text-2xl font-semibold'> Request Quote</p>
-          <p className='text-center w-2/3 mt-4'>Send booking requests and get personalized quotes</p>
+          <p className='text-center text-lg w-2/3 mt-4'>Send booking requests and get personalized quotes</p>
         </div>
         <div className='flex flex-col items-center justify-center'>
           <Smile className='size-20'/>
           <p className='text-2xl font-semibold'> Book & Enjoy</p>
-          <p className='text-center w-2/3 mt-4'>Finalize your booking and enjoy an amazing performance</p>
+          <p className='text-center text-lg w-2/3 mt-4'>Finalize your booking and enjoy an amazing performance</p>
         </div>
       </div>
     </div>

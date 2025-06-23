@@ -22,8 +22,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border border-x-0 border-b-0 border-t-white/20 pt-5 mt-10">
+      <div className="border border-x-0 border-b-0 border-t-white/20 pt-5 mt-10 flex justify-between">
         <p>© 2025 Copyright.Artistly</p>
+        <p>Made with by ❤️ Abhinav Kumar</p>
       </div>
     </div>
   );

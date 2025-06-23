@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const HeroSection = () => {
   return (
-    <div className='h-[90vh] p-4 flex flex-col justify-between relative'>
+    <div className='h-[90vh] flex flex-col justify-between relative'>
       <div>
         <p className='w-1/2 m-auto text-6xl font-semibold text-center mt-10'>
           Find the Perfect Artist for Every Occasion

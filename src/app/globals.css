@@ -120,3 +120,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+.bg-primary{
+  background-color: #C1E965;
+}
+.text-primary{
+  color: #C1E965;
+}
+.bg-secondary{
+  background-color: #043F2D;
+  color: white;
+}
+.text-secondary{
+  color: #043F2D;
+}

@@ -17,10 +17,10 @@ const HeroSection = () => {
           verified artists and manage your bookings — all in one place.
         </p>
         <div className='mt-10 flex gap-2 justify-center'>
-          <Button onClick={()=>router.push('/explore')} className='bg-black rounded-full text-lg p-5'>
+          <Button onClick={()=>router.push('/explore')} className='bg-black dark:text-white dark:border dark:border-white rounded-full text-lg p-5 dark:hover:bg-gray-700'>
             Explore
           </Button>
-          <Button className='bg-stone-200 text-black  text-lg p-5 hover:bg-stone-300 rounded-full'>
+          <Button onClick={()=>router.push('/onboarding')} className='bg-stone-200 text-black  text-lg p-5 hover:bg-stone-300 rounded-full'>
             Join as artist
           </Button>
         </div>
@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           <p className="absolute text-white font-bold text-4xl bottom-8 left-8">Concerts</p>
         </div>
-        <div className='w-full h-44 bg-gray-300 rounded-3xl flex flex-col justify-center items-center'>
+        <div className='w-full h-44 bg-gray-300 dark:bg-gray-600 rounded-3xl flex flex-col justify-center items-center'>
           <p className='font-semibold text-3xl'>2,500+</p>
           <p className='font-semibold text-3xl'>Active Artists</p>
         </div>
@@ -66,7 +66,7 @@ const HeroSection = () => {
         </div>
         <div className='w-full h-96 flex flex-col gap-2'>
           <div className='w-full h-3/4 bg-primary rounded-3xl flex p-8'>
-            <p className="text-3xl">Available for over 25+ Countries</p>
+            <p className="text-3xl dark:text-black">Available for over 25+ Countries</p>
           </div>
           <div className='w-full h-1/4  bg-green-900 rounded-3xl text-white flex items-center justify-center gap-2 '>
             <NotebookPen className='size-8' />

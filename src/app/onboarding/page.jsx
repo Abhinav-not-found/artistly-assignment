@@ -9,7 +9,7 @@ import { useState } from "react";
 const OnBoardingPage = () => {
   const [step, setStep] = useState(1);
   return (
-    <div className="h-[110vh] bg-primary">
+    <div className="h-[110vh] bg-[#C1E965] dark:bg-[#043F2D] dark:text-white">
     <div className='p-4  h-fit px-20'>
       <h1 className='text-5xl font-bold mt-4'>Join Artistly as a Performer</h1>
       <p className='text-2xl mt-2'>
@@ -22,22 +22,22 @@ const OnBoardingPage = () => {
       {step === 2 && <ProfessionalInfoForm />}
       {step === 3 && <OtherInfoForm/>}
 
-      <div className='flex justify-between mx-20 px-14 py-5 bg-white rounded-3xl rounded-t-none'>
+      <div className='flex justify-between mx-20 px-14 py-5 bg-white dark:bg-black rounded-3xl rounded-t-none'>
         {step > 1 ? (
-          <Button onClick={() => setStep(step - 1)} variant={"secondary"}>
+          <Button onClick={() => setStep(step - 1)} className='bg-[#043F2D] dark:bg-[#C1E965]'>
             Prev
           </Button>
         ) : (
-          <Button disabled={true} variant={"secondary"}>
+          <Button disabled={true} className='bg-[#043F2D] dark:bg-[#C1E965]'>
             Prev
           </Button>
         )}
         {step < 3 ? (
-          <Button onClick={() => setStep(step + 1)} variant={"secondary"}>
+          <Button onClick={() => setStep(step + 1)} className='bg-[#043F2D] dark:bg-[#C1E965]'>
             Next
           </Button>
         ) : (
-          <Button variant={"secondary"}>Submit</Button>
+          <Button className='bg-[#043F2D] dark:bg-[#C1E965]'>Submit</Button>
         )}
       </div>
     </div>

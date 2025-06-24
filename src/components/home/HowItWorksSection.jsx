@@ -3,7 +3,7 @@ import React from 'react'
 
 const HowItWorksSection = () => {
   return (
-    <section className='w-full h-fit bg-primary my-20 rounded-3xl p-10 flex flex-col gap-24'>
+    <section className='w-full h-fit bg-[#C1E965] dark:text-black my-20 rounded-3xl p-10 flex flex-col gap-24'>
       <p className='text-6xl font-semibold text-center mt-10'>How It Works</p>
       <div className='flex justify-center gap-10 mb-10'>
         <div className='flex flex-col items-center justify-center'>

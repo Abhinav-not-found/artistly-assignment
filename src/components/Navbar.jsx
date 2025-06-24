@@ -11,10 +11,10 @@ const Navbar = () => {
   return (
     <header className='p-2 px-4 flex justify-between items-center'>
       <Link href={"/"} className='flex gap-1 items-center'>
-        <p className='bg-secondary w-fit py-1 px-2.5 rounded-full font-extrabold'>
+        <p className='bg-[#043F2D] dark:bg-[#C1E965] text-white dark:text-secondary w-fit py-1 px-2.5 rounded-full font-extrabold'>
           A
         </p>
-        <p className='text-secondary font-extrabold text-xl'>Artistly</p>
+        <p className='text-[#043F2D] dark:text-[#C1E965] font-extrabold text-xl'>Artistly</p>
       </Link>
       <div className='flex items-center gap-4'>
         <div className='flex gap-4'>
@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link 
             key={item.label} 
             href={item.link} 
-            className={path === item.link ? 'font-bold text-secondary' : undefined}
+            className={path === item.link ? 'font-bold text-[#043F2D] dark:text-[#C1E965]' : undefined}
             >
               {item.label}
             </Link>

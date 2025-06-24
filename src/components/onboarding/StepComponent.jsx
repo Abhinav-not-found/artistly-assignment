@@ -12,8 +12,8 @@ const StepComponent = ({ step }) => {
         return (
           <div key={num} className='flex items-center gap-4'>
             <div
-              className={`py-2 px-5 text-2xl rounded-full ${
-                isActive ? 'bg-secondary text-white' : 'bg-secondary/50 text-black'
+              className={`py-2 px-5 text-2xl  rounded-full ${
+                isActive ? 'bg-[#043F2D] dark:bg-[#C1E965] text-white dark:text-black' : 'bg-secondary/50 text-black'
               }`}
             >
               {num}
@@ -21,7 +21,7 @@ const StepComponent = ({ step }) => {
             {!isLast && (
               <div
                 className={`w-40 h-2 ${
-                  step > num ? 'bg-secondary' : 'bg-secondary/50'
+                  step > num ? 'bg-[#043F2D] dark:bg-[#C1E965]' : 'bg-secondary/50'
                 }`}
               />
             )}

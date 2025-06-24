@@ -2,7 +2,7 @@ import { Input } from "@/components/ui/input";
 
 const PersonalInfoForm = () => {
   return (
-    <form className='mt-10 mx-20 px-14 py-10 bg-white rounded-3xl rounded-b-none'>
+    <form className='mt-10 mx-20 px-14 py-10 bg-white dark:bg-black dark:text-white rounded-3xl rounded-b-none'>
       <h1 className='text-2xl font-semibold'>Personal Information</h1>
       <p className='mb-4'>Tell us about yourself</p>
 

@@ -15,7 +15,7 @@ const CategorySelect = () => {
 
   return (
     <div className="relative">
-      <details className="border rounded p-2 cursor-pointer bg-white w-full max-w-md">
+      <details className="border rounded p-2 cursor-pointer bg-white dark:bg-black dark:text-white w-full max-w-md">
         <summary className="list-none font-medium">
           {selected.length > 0 ? selected.join(", ") : "Select categories"}
         </summary>

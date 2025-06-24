@@ -7,7 +7,7 @@ import CategorySelect from "./CategorySelect";
 
 const ProfessionalInfoForm = () => {
   return (
-    <form className='mt-10 mx-20 px-14 py-10 bg-white rounded-3xl rounded-b-none'>
+    <form className='mt-10 mx-20 px-14 py-10 bg-white dark:bg-black text-white rounded-3xl rounded-b-none'>
       <h1 className='text-2xl font-semibold'>Professional Information</h1>
       <p className='mb-4'>Share your professional background</p>
 

@@ -8,6 +8,8 @@ import React from 'react'
 // optimize code for all these components below
 // test dark mode for everything
 // divide heroSection into more sub-components [do the same for HowItWorksSection]
+// make the classnames in a variable 
+// fix explore button navigation in hero section
 
 const HomePage = () => {
   return (

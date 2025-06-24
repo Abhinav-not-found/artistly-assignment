@@ -1,8 +1,11 @@
+'use client'
 import React from "react";
 import { Button } from "../ui/button";
 import { NotebookPen, Sparkle } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const HeroSection = () => {
+  const router = useRouter()
   return (
     <section className='h-[90vh] flex flex-col justify-between relative'>
       <div>
@@ -14,8 +17,8 @@ const HeroSection = () => {
           verified artists and manage your bookings — all in one place.
         </p>
         <div className='mt-10 flex gap-2 justify-center'>
-          <Button className='bg-black rounded-full text-lg p-5'>
-            <p className='cursor-pointer'>Explore</p>
+          <Button onClick={()=>router.push('/explore')} className='bg-black rounded-full text-lg p-5'>
+            Explore
           </Button>
           <Button className='bg-stone-200 text-black  text-lg p-5 hover:bg-stone-300 rounded-full'>
             Join as artist

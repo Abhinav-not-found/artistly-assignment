@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link 
             key={item.label} 
             href={item.link} 
-            className={path === item.link && 'font-bold text-secondary'}
+            className={path === item.link ? 'font-bold text-secondary' : undefined}
             >
               {item.label}
             </Link>

@@ -6,7 +6,7 @@ const CategorySection = () => {
     <section className=''>
       <p className='text-center text-2xl'>Select from variety of </p>
       <p className='text-center text-6xl font-semibold'>Categories</p>
-      <div className='mt-18 grid grid-cols-4 grid-rows-1 ml-28'>
+      <div className='mt-18 grid grid-cols-2 md:grid-cols-4 grid-rows-1 gap-x-10 md:gap-x-0 gap-y-8 md:gap-y-0 lg:ml-28'>
         <CategoryCard
           image={
             "https://images.pexels.com/photos/1625355/pexels-photo-1625355.jpeg"

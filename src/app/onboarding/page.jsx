@@ -33,13 +33,13 @@ const OnBoardingPage = () => {
 
   return (
     <div className="h-fit min-h-screen bg-[#C1E965] dark:bg-[#043F2D] dark:text-white">
-      <div className="p-4 h-fit px-20">
-        <h1 className="text-5xl font-bold mt-4">Join Artistly as a Performer</h1>
+      <div className="p-4 h-fit md:px-20">
+        <h1 className="text-4xl md:text-5xl font-bold mt-4">Join Artistly as a Performer</h1>
         <p className="text-2xl mt-2">
           Share your talent with event planners worldwide
         </p>
 
-        <StepComponent step={step} />
+        {/* <StepComponent step={step} /> */}
 
         <FormProvider {...methods}>
           <form onSubmit={methods.handleSubmit(onSubmit)}>
@@ -47,7 +47,7 @@ const OnBoardingPage = () => {
             {step === 2 && <ProfessionalInfoForm />}
             {step === 3 && <OtherInfoForm />}
 
-            <div className="flex justify-between mx-20 px-14 py-5 bg-white dark:bg-black rounded-3xl rounded-t-none">
+            <div className="flex justify-between md:mx-20 px-14 py-5 bg-white dark:bg-black rounded-3xl rounded-t-none">
               <Button
                 onClick={() => setStep((prev) => Math.max(prev - 1, 1))}
                 type="button"

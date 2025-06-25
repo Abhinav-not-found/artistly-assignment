@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="capitalize text-xl flex flex-col gap-4">
             <p>instagram</p>
             <p>twitter</p>
-            <p>linkedIn</p>
+            <Link href={'https://www.linkedin.com/in/abhinav-kumar-fullstack/'} target="_blank" className="cursor-pointer hover:underline">linkedIn</Link>
           </div>
         </div>
       </div>

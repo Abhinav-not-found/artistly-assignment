@@ -7,12 +7,12 @@ import {
 } from "@/components/ui/select";
 import { priceRanges } from "@/lib/priceRange";
 
-const PriceRangeFilterComponent = () => {
+const PriceRangeFilterComponent = ({selected, onSelect}) => {
   return (
      <div>
           <label htmlFor='category'>Price range</label>
           <div className='mt-2'>
-            <Select>
+            <Select value={selected} onValueChange={onSelect}>
               <SelectTrigger className='w-[180px]'>
                 <SelectValue placeholder='All Prices' />
               </SelectTrigger>

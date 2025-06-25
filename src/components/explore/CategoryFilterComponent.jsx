@@ -1,3 +1,4 @@
+'use state'
 import React from "react";
 import {
   Select,
@@ -8,12 +9,12 @@ import {
 } from "@/components/ui/select";
 import { categories } from "@/lib/categories";
 
-const CategoryFilterComponent = () => {
+const CategoryFilterComponent = ({selected, onSelect}) => {
   return (
     <div>
       <label htmlFor='category'>Category</label>
       <div className='mt-2'>
-        <Select>
+        <Select value={selected} onValueChange={onSelect}>
           <SelectTrigger className='w-[180px]'>
             <SelectValue placeholder='All Categories' />
           </SelectTrigger>

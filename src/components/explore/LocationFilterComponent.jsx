@@ -7,12 +7,12 @@ import {
 } from "@/components/ui/select";
 import { locations } from "@/lib/locations";
 
-const LocationFilterComponent = () => {
+const LocationFilterComponent = ({selected, onSelect}) => {
   return (
     <div>
       <label htmlFor='category'>Location</label>
       <div className='mt-2'>
-        <Select>
+        <Select value={selected} onValueChange={onSelect}>
           <SelectTrigger className='w-[180px]'>
             <SelectValue placeholder='All Location' />
           </SelectTrigger>

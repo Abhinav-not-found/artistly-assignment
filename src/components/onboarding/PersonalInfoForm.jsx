@@ -8,7 +8,7 @@ const PersonalInfoForm = () => {
   } = useFormContext();
 
   return (
-    <div className='mt-10 mx-20 px-14 py-10 bg-white dark:bg-black dark:text-white rounded-3xl rounded-b-none'>
+    <div className='mt-10 md:mx-20 px-6 md:px-14 py-8 md:py-10 bg-white dark:bg-black dark:text-white rounded-3xl rounded-b-none'>
       <h1 className='text-2xl font-semibold'>Personal Information</h1>
       <p className='mb-4'>Tell us about yourself</p>
 

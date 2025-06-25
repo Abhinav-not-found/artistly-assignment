@@ -3,19 +3,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className='bg-secondary w-full h-fit rounded-3xl p-10 flex flex-col justify-between'>
+    <footer className='bg-secondary w-full h-fit rounded-3xl p-4 md:p-10 flex flex-col justify-between'>
       <div className="flex justify-between items-start">
         <div>
           <Link href={"/"} className='flex gap-1 items-center'>
-            <p className='bg-white text-secondary text-2xl w-fit py-1 px-3 rounded-full font-extrabold'>
+            <p className='bg-white text-secondary md:text-2xl w-fit py-1 px-2.5 md:px-3 rounded-full font-extrabold'>
               A
             </p>
-            <p className='text-white font-extrabold text-3xl'>Artistly</p>
+            <p className='text-white font-extrabold md:text-3xl'>Artistly</p>
           </Link>
-          <p className="mt-4 text-xl">Your one-stop platform for discovering and booking talent</p>
+          <p className="mt-4 md:text-xl">Your one-stop platform for discovering and booking talent</p>
         </div>
         <div>
-          <div className="capitalize text-xl flex flex-col gap-4">
+          <div className="capitalize md:text-xl flex flex-col gap-4">
             <p>instagram</p>
             <p>twitter</p>
             <Link href={'https://www.linkedin.com/in/abhinav-kumar-fullstack/'} target="_blank" className="cursor-pointer hover:underline">linkedIn</Link>

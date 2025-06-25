@@ -10,7 +10,7 @@ const ProfessionalInfoForm = () => {
     formState: { errors },
   } = useFormContext();
   return (
-    <div className='mt-10 mx-20 px-14 py-10 bg-white text-black dark:bg-black dark:text-white rounded-3xl rounded-b-none'>
+    <div className='mt-10 md:mx-20 px-6 md:px-14 py-8 md:py-10 bg-white text-black dark:bg-black dark:text-white rounded-3xl rounded-b-none'>
       <h1 className='text-2xl font-semibold'>Professional Information</h1>
       <p className='mb-4'>Share your professional background</p>
 
